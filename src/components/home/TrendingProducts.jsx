@@ -4,7 +4,7 @@ const TrendingProducts = ({ products }) => {
   return (
     <section className="border-t border-[#d6ccc2] py-12">
       <div className="text-center max-w-2xl mx-auto px-4">
-        <h3 className="text-5xl font-medium heading-font tracking-tight text-[#1f1d1b]">
+        <h3 className="text-5xl font-medium heading-font tracking-tight text-[#3d352f]">
           what’s defining the moment
         </h3>
 
@@ -13,13 +13,13 @@ const TrendingProducts = ({ products }) => {
         </p>
       </div>
 
-      <div className="grid md:grid-cols-4 gap-6 m-6">
+      <div className="grid md:grid-cols-3 gap-6 m-6">
         {products.map((items) => (
           <div key={items.id}>
             <img
               src={items.image}
               alt={items.name}
-              className="w-full h-80 object-cover border border-[#d6ccc2] p-3 mb-2 hover:scale-98 transition duration-500"
+              className="w-full h-80 border border-[#d6ccc2] p-3 mb-2 object-cover"
             />
 
             <span className="text-xs uppercase bg-[#1a1a1a] tracking-widest text-[#f5f5f5] px-2 py-1 body-font">

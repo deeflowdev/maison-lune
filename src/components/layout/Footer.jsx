@@ -4,7 +4,7 @@ import NewsLetter from "../home/Newsletter";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#EDE0D4] px-10 py-16 text-[#5e503f] border-t border-[#d6ccc2]">
+    <footer className="bg-[#EDE0D4] px-10 py-12 text-[#5e503f] border-t border-[#d6ccc2]">
       <div className="grid grid-cols-3 gap-10">
         {/* brand */}
         <div>
@@ -20,10 +20,10 @@ const Footer = () => {
           <h3 className="uppercase tracking-[0.2em] text-sm mb-4">Shop</h3>
 
           <div className="flex flex-col gap-2 text-sm capitalize">
-            <Link>new arrivals</Link>
-            <Link>best sellers</Link>
-            <Link>dresses</Link>
-            <Link>accessories</Link>
+            <Link to="/new-in">new arrivals</Link>
+            <Link to="">best sellers</Link>
+            <Link to="">dresses</Link>
+            <Link to="">accessories</Link>
           </div>
         </div>
 
@@ -34,10 +34,10 @@ const Footer = () => {
           </h3>
 
           <div className="flex flex-col gap-2 text-sm capitalize pb-5">
-            <Link>contact us</Link>
-            <Link>shipping</Link>
-            <Link>returns</Link>
-            <Link>faq</Link>
+            <Link to="/contact">contact us</Link>
+            <Link to="/shipping">shipping</Link>
+            <Link to="/return">returns</Link>
+            <Link to="/faq">faq</Link>
           </div>
         </div>
       </div>
