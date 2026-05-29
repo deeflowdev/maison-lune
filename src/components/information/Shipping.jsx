@@ -6,7 +6,7 @@ const Shipping = () => {
   return (
     <section className="bg-[#fafaff] min-h-screen px-8 py-16 text-[#5e503f]">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl heading-font capitalize mb-8 border-b pb-6 border-[#d6ccc2]">
+        <h1 className="text-3xl md:text-5xl heading-font capitalize mb-8 border-b pb-6 border-[#d6ccc2]">
           shipping information
         </h1>
 
@@ -16,7 +16,7 @@ const Shipping = () => {
               <RiGlobalLine />
               domestic shipping
             </h2>
-            <p className="body-font">
+            <p className="body-font tex-xs md:text-medium">
               all orders across india are processed within 2 — 4 business days.
               estimated delivery time is 4 — 7 business days depending on your
               location.
@@ -28,12 +28,12 @@ const Shipping = () => {
               <RiGlobalLine />
               international shipping
             </h2>
-            <p className="body-font">
+            <p className="body-font tex-xs md:text-medium">
               maison lune delivers worldwide, including the united states,
               united kingdom, europe, uae, singapore, and australia.
             </p>
 
-            <p className="mt-3 body-font">
+            <p className="mt-3 body-font tex-xs md:text-medium">
               international delivery timelines typically range between 7 — 14
               business days.
             </p>
@@ -48,7 +48,7 @@ const Shipping = () => {
               free shipping across india on orders above ₹4,000.
             </p>
 
-            <p className="mt-2 body-font">
+            <p className="mt-2 body-font tex-xs md:text-medium">
               international shipping fees are calculated at checkout based on
               destination and package weight.
             </p>
@@ -59,24 +59,13 @@ const Shipping = () => {
               <RiExchangeLine />
               customs & duties
             </h2>
-            <p className="body-font">
+            <p className="body-font tex-xs md:text-medium">
               international customers may be required to pay customs duties or
               import taxes upon delivery. maison lune is not responsible for
               additional customs fees.
             </p>
           </div>
         </div>
-      </div>
-      <div className="mt-14">
-        <Link
-          to="/"
-          className="relative text-xs uppercase text-[#1f1d1b] transition-colors duration-300
-        after:content-[''] after:absolute after:left-0 after:-bottom-1
-        after:h-px after:w-0 after:bg-[#432818]
-        after:transition-all after:duration-300 hover:after:w-full hover:text-[#432818]"
-        >
-          return home
-        </Link>
       </div>
     </section>
   );

@@ -1,5 +1,4 @@
 import React from "react";
-import ReturnBack from "../components/common/ReturnBack";
 
 const Editorial = () => {
   return (
@@ -106,7 +105,6 @@ const Editorial = () => {
             restraint, translated through fabric, silence, and form.
           </p>
         </div>
-        <ReturnBack />
       </section>
     </div>
   );

@@ -1,6 +1,5 @@
 import React from "react";
 import { RiHeartFill, RiShoppingBag3Line } from "@remixicon/react";
-import ReturnBack from "../components/common/ReturnBack";
 
 const wishlistItems = [
   {
@@ -74,7 +73,6 @@ const Wishlist = () => {
           </div>
         ))}
       </div>
-      <ReturnBack />
     </section>
   );
 };

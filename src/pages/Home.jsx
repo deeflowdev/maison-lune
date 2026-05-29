@@ -66,6 +66,7 @@ const trendingProducts = [
 ];
 
 const Home = () => {
+  // console.log(collections);
   return (
     <div>
       <Hero />

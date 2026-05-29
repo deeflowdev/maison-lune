@@ -1,10 +1,9 @@
 import React from "react";
-import ReturnBack from "../components/common/ReturnBack";
 
 const Account = () => {
   return (
     <div className="min-h-130 w-full bg-[#fafaff] flex items-center justify-center">
-      <div className="w-full max-w-md border border-[#d6ccc2] p-10 bg-[#f5f1e0]">
+      <div className="w-full max-w-md border border-[#d6ccc2] p-10 bg-[#ffffff89] shadow">
         {/* header */}
         <div className="mb-10 text-center">
           <h1 className="text-3xl heading-font text-[#1f1d1b] mb-2">Account</h1>

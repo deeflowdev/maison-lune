@@ -8,18 +8,17 @@ import {
   RiSparklingLine,
 } from "@remixicon/react";
 import { Link } from "react-router-dom";
-import ReturnBack from "../common/ReturnBack";
 
 const Contact = () => {
   return (
     <section className="bg-[#fafaff] min-h-screen px-8 py-16 text-[#5e503f]">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl heading-font capitalize mb-6 flex items-center gap-4 border-b pb-6 border-[#d6ccc2]">
+        <h1 className="text-3xl md:text-5xl heading-font capitalize mb-6 flex items-center gap-4 border-b pb-6 border-[#d6ccc2]">
           <RiSparklingLine className="text-3xl" />
           contact maison lune
         </h1>
 
-        <p className="body-font text-medium leading-8 mb-10">
+        <p className="body-font text-sm md:text-medium leading-8 mb-10">
           for customer care, order enquiries, collaborations, or press requests,
           our client services team is available monday to saturday, 10am — 7pm
           ist.
@@ -75,8 +74,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      <ReturnBack />
     </section>
   );
 };

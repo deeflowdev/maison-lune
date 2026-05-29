@@ -6,7 +6,7 @@ const Returns = () => {
   return (
     <section className="bg-[#fafaff] min-h-screen px-8 py-16 text-[#5e503f]">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-5xl heading-font capitalize mb-8 border-b pb-6 border-[#d6ccc2]">
+        <h1 className="text-3xl md:text-5xl heading-font capitalize mb-8 border-b pb-6 border-[#d6ccc2]">
           returns & exchanges
         </h1>
 
@@ -16,12 +16,12 @@ const Returns = () => {
               <RiArrowGoBackLine />
               return policy
             </h2>
-            <p className="body-font">
+            <p className="body-font text-sm md:text-medium">
               returns can be requested within 7 days of delivery for eligible
               products.
             </p>
 
-            <p className="mt-2 body-font">
+            <p className="mt-2 body-font text-sm md:text-medium">
               items must remain unworn, unused, and in their original packaging
               with all tags attached.
             </p>
@@ -32,7 +32,7 @@ const Returns = () => {
               <RiArrowGoBackLine />
               non-returnable items
             </h2>
-            <p className="body-font">
+            <p className="body-font text-sm md:text-medium">
               sale items, jewellery, accessories, and customised orders are not
               eligible for return or exchange.
             </p>
@@ -43,7 +43,7 @@ const Returns = () => {
               <RiArrowGoBackLine />
               refund timeline
             </h2>
-            <p className="body-font">
+            <p className="body-font text-sm md:text-medium">
               approved refunds are processed within 5 — 7 business days to the
               original payment method.
             </p>
@@ -54,23 +54,12 @@ const Returns = () => {
               <RiArrowGoBackLine />
               exchange requests
             </h2>
-            <p className="body-font">
+            <p className="body-font text-sm md:text-medium">
               size exchanges are subject to product availability. to request an
               exchange, contact our support team at support@maisonlune.in.
             </p>
           </div>
         </div>
-      </div>
-      <div className="mt-14">
-        <Link
-          to="/"
-          className="relative text-xs uppercase text-[#1f1d1b] transition-colors duration-300
-        after:content-[''] after:absolute after:left-0 after:-bottom-1
-        after:h-px after:w-0 after:bg-[#432818]
-        after:transition-all after:duration-300 hover:after:w-full hover:text-[#432818]"
-        >
-          return home
-        </Link>
       </div>
     </section>
   );

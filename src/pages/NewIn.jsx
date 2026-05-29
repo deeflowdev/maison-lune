@@ -1,6 +1,5 @@
 import React from 'react'
 import { products } from '../data/products'
-import ReturnBack from '../components/common/ReturnBack';
 
 const NewIn = () => {
 
@@ -14,7 +13,7 @@ const NewIn = () => {
           maison lune
         </p>
 
-        <h1 className="text-5xl heading-font capitalize text-[#1f1d1b] max-w-2xl leading-tight">
+        <h1 className="text-5xl heading-font capitalize text-[#3d352f] max-w-2xl leading-tight">
           new arrivals curated for the modern wardrobe
         </h1>
 
@@ -50,8 +49,6 @@ const NewIn = () => {
           </div>
         ))}
       </div>
-
-      <ReturnBack />
     </section>
   );
 }

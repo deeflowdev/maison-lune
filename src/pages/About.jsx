@@ -1,4 +1,4 @@
-import ReturnBack from "../components/common/ReturnBack";
+
 
 const About = () => {
   return (
@@ -50,7 +50,6 @@ const About = () => {
           remembered.
         </p>
       </div>
-      <ReturnBack />
     </section>
   );
 };

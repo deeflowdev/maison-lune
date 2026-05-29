@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import { products } from '../data/products'
 import Button from '../components/common/ReturnBack';
 import { RiHeartLine, RiHeartFill } from "@remixicon/react";
-import ReturnBack from '../components/common/ReturnBack';
 
 const Shop = () => {
 
@@ -21,7 +20,7 @@ const Shop = () => {
           Maison Lune Archive
         </p>
 
-        <h1 className="text-5xl md:text-6xl heading-font text-[#1f1d1b] leading-tight max-w-3xl capitalize">
+        <h1 className="text-5xl md:text-6xl heading-font text-[#3d352f] leading-tight max-w-3xl capitalize">
           Refined essentials shaped through restraint and performance
         </h1>
 
@@ -89,7 +88,6 @@ const Shop = () => {
         ))}
       </div>
 
-      <ReturnBack />
     </section>
   );
 }
