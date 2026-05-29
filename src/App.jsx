@@ -1,5 +1,3 @@
-// <div className="min-h-screen flex flex-col bg-[#fafaff]">
-
 import { Route, Routes } from "react-router-dom";
 
 import PageLayout from "./pages/PageLayout";
