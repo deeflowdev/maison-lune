@@ -68,7 +68,7 @@ const trendingProducts = [
 const Home = () => {
   // console.log(collections);
   return (
-    <div>
+    <div className="min-h-screen">
       <Hero />
       <FeaturedCollection collections={collections} />
       <TrendingProducts products={trendingProducts} />
